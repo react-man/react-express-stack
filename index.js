@@ -16,7 +16,7 @@ app.get('/api/passwords', (req, res) => {
 		generatePassword(12, false)
 	);
 
-	// Return them as json
+	// Return them as json 
 	res.json(passwords);
 
 	console.log(`Sent ${count} passwords`);
